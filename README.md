@@ -8,6 +8,6 @@
 
 ### Updated raw Argo / Roemmich and Gilson data compiled and preprocessed for MLD analysis in `ML_RG_Argo_Preprocessing_BAMS2025.ipynb`.
 
-### MLD is computed as the depth where surface-referenced potential density exceeds 0.03 kg/m3 more than at 10 m depth, following Boyer and Montegue (2004). MLD fields and calculated and saved out in `MixedLayer_RG_Calculation_CreateFiles_BAMS2025.ipynb`.
+### MLD is computed as the maximum depth where surface-referenced potential density no longer exceeds 0.03 kg/m3 more than potential density at 10 m depth, following Boyer and Montegue (2004). MLD fields and calculated and saved out in `MixedLayer_RG_Calculation_CreateFiles_BAMS2025.ipynb`.
 
 ### Final figures as they appear in the 2025 report are produced in `Final_Figures2025.ipynb`.
